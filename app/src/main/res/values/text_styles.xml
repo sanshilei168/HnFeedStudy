@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- text的样式 -->
+
+    <style name="MyText_size26_tvColor_white">
+        <item name="android:textSize">@dimen/txt_26</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyText_size26_tvColor_black">
+        <item name="android:textSize">@dimen/txt_26</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="MyText_size26_tvColor_red">
+        <item name="android:textSize">@dimen/txt_26</item>
+        <item name="android:textColor">@color/txt_red</item>
+    </style>
+
+
+    <style name="MyText_size24_tvColor_black">
+        <item name="android:textSize">@dimen/txt_24</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="MyText_size20_tvColor_black">
+        <item name="android:textSize">@dimen/txt_20</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+
+
+    <style name="MyText_size24_tvColor_red">
+        <item name="android:textSize">@dimen/txt_24</item>
+        <item name="android:textColor">@color/txt_red</item>
+    </style>
+
+
+    <style name="MyText_size24_tvColor_white">
+        <item name="android:textSize">@dimen/txt_24</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyText_size22_tvColor_red">
+        <item name="android:textSize">@dimen/txt_22</item>
+        <item name="android:textColor">@color/txt_red</item>
+    </style>
+
+    <style name="MyText_size22_tvColor_black">
+        <item name="android:textSize">@dimen/txt_22</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="MyText_size18_tvColor_black">
+        <item name="android:textSize">@dimen/txt_18</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+
+    <style name="MyText_size20_tvColor_white">
+        <item name="android:textSize">@dimen/txt_20</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="MyText_size18_tvColor_white">
+        <item name="android:textSize">@dimen/txt_18</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyText_size18_tvColor_gray">
+        <item name="android:textSize">@dimen/txt_18</item>
+        <item name="android:textColor">@color/txt_gray</item>
+    </style>
+
+    <style name="MyText_size16_tvColor_black">
+        <item name="android:textSize">@dimen/txt_16</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="MyText_size16_tvColor_white">
+        <item name="android:textSize">@dimen/txt_16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyText_size16_tvColor_gray">
+        <item name="android:textSize">@dimen/txt_16</item>
+        <item name="android:textColor">@color/txt_gray</item>
+    </style>
+
+    <style name="MyText_size14_tvColor_black">
+        <item name="android:textSize">@dimen/txt_14</item>
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="MyText_size14_tvColor_gray">
+        <item name="android:textSize">@dimen/txt_14</item>
+        <item name="android:textColor">@color/txt_gray</item>
+    </style>
+
+    <style name="MyText_size12_tvColor_red">
+        <item name="android:textSize">@dimen/txt_12</item>
+        <item name="android:textColor">@color/txt_red</item>
+    </style>
+
+    <style name="MyText_size14_tvColor_white">
+        <item name="android:textSize">@dimen/txt_14</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyText_size12_tvColor_black">
+        <item name="android:textSize">@dimen/txt_12</item>
+        <item name="android:textColor">@color/txt_gray</item>
+    </style>
+
+    <style name="MyText_size12_tvColor_white">
+        <item name="android:textSize">@dimen/txt_12</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

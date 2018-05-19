@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:paddingTop="@dimen/mar_100"
+    android:background="@color/transparent_background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/transparent_background"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mar_60"
+            android:orientation="horizontal"
+            android:background="@color/bg_blue"
+            >
+
+            <TextView
+                android:id="@+id/tv_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/arrow_double_down"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/mar_10"
+                android:layout_alignParentRight="true"
+               style="@style/MyText_size14_tvColor_white"
+                android:drawablePadding="@dimen/mar_10"
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_1"
+                android:layout_marginLeft="@dimen/mar_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:visibility="gone"
+                >
+
+                <TextView
+                  android:id="@+id/tv_pop_stype1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/exam_ok_small"
+                android:text="已答"
+                style="@style/MyText_size14_tvColor_white"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/mar_6"/>
+
+            <TextView
+                android:id="@+id/tv_pop_stype2"
+                android:layout_marginLeft="@dimen/mar_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/exam_now_small"
+                android:text="当前"
+                style="@style/MyText_size14_tvColor_white"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/mar_6"/>
+            <TextView
+                android:id="@+id/tv_pop_stype3"
+                android:layout_marginLeft="@dimen/mar_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/exam_no_small"
+                android:text="未答"
+                style="@style/MyText_size14_tvColor_white"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/mar_6"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_2"
+                android:layout_marginLeft="@dimen/mar_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@+id/ll_1"
+                android:layout_centerVertical="true"
+                >
+
+                <TextView
+                    android:id="@+id/tv_pop_stype0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/exam_ok_small"
+                    android:text="不符合"
+                    style="@style/MyText_size14_tvColor_white"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="@dimen/mar_6"
+                    android:layout_marginRight="@dimen/mar_6"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_pop_stype4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/answer_ok_small"
+                    android:text="搭对"
+                    style="@style/MyText_size14_tvColor_white"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="@dimen/mar_6"/>
+
+                <TextView
+                    android:id="@+id/tv_pop_stype5"
+                    android:layout_marginLeft="@dimen/mar_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/answer_error_small"
+                    android:text="答错"
+                    style="@style/MyText_size14_tvColor_white"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="@dimen/mar_6"/>
+
+
+                <TextView
+                    android:id="@+id/tv_pop_stype6"
+                    android:layout_marginLeft="@dimen/mar_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/exam_now_small"
+                    android:text="其他"
+                    style="@style/MyText_size14_tvColor_white"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="@dimen/mar_6"
+                    />
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+            <GridView
+                android:background="@color/bg_gray"
+                android:id="@+id/gv_exam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="6"
+                android:verticalSpacing="@dimen/mar_10"
+                android:horizontalSpacing="@dimen/mar_10"
+                android:scrollbars="none"
+                android:padding="@dimen/mar_10"
+                />
+    </LinearLayout>
+
+    <include layout="@layout/base_line"/>
+
+</LinearLayout>

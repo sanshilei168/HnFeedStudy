@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">饲料许可评审管理</string>
+
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="topic_last_question">已经是最后一题了</string>
+    <string name="topic_first_question">已经是第一题了</string>
+
+    <!--现场审核-->
+    <string name="scene_selectindex_1">符合要求</string>
+    <string name="scene_selectindex_2">不符合要求</string>
+    <string name="scene_selectindex_3">不涉及</string>
+    <string name="scene_selectindex_4">重置</string>
+
+
+    <string name="topic_exit_exam">是否确定提交本试卷，提交后将不能进行修改和再次考试？</string>
+    <string name="exit_scene">该系统为学习系统，退出后数据将消失，确定退出评审页面吗？</string>
+    <string name="exit_shenheTable">是否确定保存数据并退出该审核意见页面？</string>
+    <string name="clear_data_yesok">确定要清除该信息吗？</string>
+    <string name="clear_data_nook">该批次号下的信息没有全部完成，确定要清除吗？</string>
+
+    <string name="support_company_name">技术支持:北京农信通科技有限责任公司</string>
+
+
+</resources>

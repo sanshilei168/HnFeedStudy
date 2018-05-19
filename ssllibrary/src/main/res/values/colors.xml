@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="bg_title">#008cd5</color>
+    <color name="txt_gray">#666666</color>
+    <color name="txt_hint">#939393</color>
+    <color name="txt_yellow">#ed7514</color>
+    <color name="txt_black">#333333</color>
+    <color name="txt_red">#e71f19</color>
+    <color name="txt_green">#7aff7a</color>
+
+
+    <color name="body_text_disabled">#66000000</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="transparent_black_50">#76000000</color>
+    <color name="transparent_white_50">#33ffffff</color>
+    <color name="translucent_background">#33000000</color>
+    <color name="partTranslucent">#39000000</color>
+
+
+    <color name="line_gray">#d7d7d9</color>
+    <color name="bg_txt_gray">#dadada</color>
+    <color name="bg_gray">#f4f4f4</color>
+    <color name="bg_red">#ee504f</color>
+    <color name="bg_green">#00cb7c</color>
+    <color name="bg_blue">#008cd5</color>
+    <color name="bg_orange">#ff9976</color>
+
+
+    <color name="orange">#ff6935</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#00cb7c</color>
+    <color name="gray">#ff666666</color>
+    <color name="red">#ee504f</color>
+    <color name="hui">#55555555</color>
+    <color name="yellow">#f0ec0e</color>
+    <color name="circle_color">#f8f8f8</color>
+
+    <!--相册颜色-->
+    <color name="bar_grey">#393a3e</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="black">#000000</color>
+    <color name="blue">#7D7DFF</color>
+    <color name="color_fa">#fafafa</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="color_c51">#f94c51</color>
+
+
+
+</resources>

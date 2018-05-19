@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+   <include layout="@layout/base_title"/>
+
+    <ImageView
+        android:id="@+id/viewPagerShouYe"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/banner_01"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/mar_20"
+        android:paddingBottom="@dimen/mar_30"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/mar_10"
+        android:paddingRight="@dimen/mar_10"
+        android:background="@drawable/bg_home">
+        <LinearLayout
+            style="@style/myCardView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_home_1"
+                style="@style/myCardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#FFA44B"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/img_main_1"
+                    android:drawablePadding="@dimen/mar_10"
+                   android:text="浓缩饲料、配合饲料、精料补充料"
+                    android:layout_gravity="center"
+                    style="@style/MyText_size14_tvColor_white"
+                    android:gravity="center"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/mar_10"
+            style="@style/myCardView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_home_2"
+                style="@style/myCardView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#2ED1EE">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/MyText_size14_tvColor_white"
+                    android:drawableTop="@drawable/img_main_2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="添加剂预混合饲料"
+                    android:drawablePadding="@dimen/mar_6"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_home_3"
+                style="@style/myCardView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/mar_10"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#9BE24F">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/img_main_3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="饲料添加剂"
+                    android:drawablePadding="@dimen/mar_6"
+                    style="@style/MyText_size14_tvColor_white"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/mar_10"
+            style="@style/myCardView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_home_4"
+                style="@style/myCardView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#F57373">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/img_main_4"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="混合型饲料添加剂"
+                    android:drawablePadding="@dimen/mar_6"
+                    style="@style/MyText_size14_tvColor_white"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_home_5"
+                style="@style/myCardView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/mar_10"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#B96DFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/img_main_5"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="单一饲料"
+                    android:drawablePadding="@dimen/mar_6"
+                    style="@style/MyText_size14_tvColor_white"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

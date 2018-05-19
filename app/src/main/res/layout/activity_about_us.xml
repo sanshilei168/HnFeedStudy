@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@drawable/about_us">
+
+    <include layout="@layout/base_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginTop="@dimen/mar_60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="北京农信通科技有限责任公司\n郑州分公司"
+            android:textSize="@dimen/txt_20"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/mar_20"
+            android:layout_marginLeft="@dimen/mar_20"
+            android:lineSpacingMultiplier="1.5"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/mar_20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="公司地址：河南省郑州市郑东新区平安大道与明理路交汇处向西100米路南 建业智慧港D座4楼"
+            style="@style/MyText_size16_tvColor_black"
+            android:gravity="bottom"
+            android:layout_marginRight="@dimen/mar_20"
+            android:layout_marginLeft="@dimen/mar_20"
+            android:layout_marginBottom="220dp"
+            android:lineSpacingMultiplier="1.5"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mar_45"
+        android:gravity="center"
+        android:text="版本号：1.0.1"
+        android:layout_marginBottom="@dimen/mar_10"
+        style="@style/MyText_size14_tvColor_black"
+        />
+
+</LinearLayout>

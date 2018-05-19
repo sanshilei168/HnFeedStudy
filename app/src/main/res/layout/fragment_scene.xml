@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_scene_zt"
+        style="@style/MyText_size14_tvColor_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/mar_10"
+        android:background="@drawable/bg_round_orange"
+        android:gravity="center"
+        android:paddingBottom="@dimen/mar_10"
+        android:paddingLeft="@dimen/mar_20"
+        android:paddingRight="@dimen/mar_20"
+        android:paddingTop="@dimen/mar_10"
+        android:text="主题" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/noScrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/mar_10"
+        android:layout_marginLeft="@dimen/mar_10"
+        android:layout_marginRight="@dimen/mar_10"
+        android:layout_marginTop="@dimen/mar_10"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_round_white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/mar_10"
+                    android:paddingLeft="@dimen/mar_10"
+                    android:paddingRight="@dimen/mar_10"
+                    android:paddingTop="@dimen/mar_10"
+                    android:minHeight="@dimen/mar_45"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/MyText_size14_tvColor_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="审核内容：" />
+
+                    <TextView
+                        android:id="@+id/tv_scene_content"
+                        style="@style/MyText_size14_tvColor_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:gravity="center_vertical"
+                        android:text="审核内容" />
+
+                    <TextView
+                        android:id="@+id/tv_scene_chack"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:gravity="center_vertical|right"
+                        android:text="查看信息"
+                        android:textColor="@color/txt_green"
+                        android:textSize="@dimen/txt_16"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <include layout="@layout/base_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/mar_45"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/mar_10"
+                    android:paddingLeft="@dimen/mar_10"
+                    android:paddingRight="@dimen/mar_10"
+                    android:paddingTop="@dimen/mar_10">
+
+                    <TextView
+                        style="@style/MyText_size14_tvColor_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="审核方式：" />
+
+                    <TextView
+                        android:id="@+id/tv_scene_fs"
+                        style="@style/MyText_size14_tvColor_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:gravity="center_vertical"
+                        android:text="拉的及奥迪可垃圾的法拉克的积分" />
+
+                </LinearLayout>
+
+                <include layout="@layout/base_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/mar_45"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/mar_10"
+                    android:paddingLeft="@dimen/mar_10"
+                    android:paddingRight="@dimen/mar_10"
+                    android:paddingTop="@dimen/mar_10">
+
+                    <TextView
+                        style="@style/MyText_size14_tvColor_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="审核要求：" />
+
+                    <TextView
+                        android:id="@+id/tv_scene_yq"
+                        style="@style/MyText_size14_tvColor_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:gravity="center_vertical"
+                        android:text="拉的及奥迪可垃圾的法拉克的积分" />
+
+                </LinearLayout>
+
+                <include layout="@layout/base_line" />
+
+                <LinearLayout
+                    android:id="@+id/ll_scene_ts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/mar_45"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/mar_10"
+                    android:paddingLeft="@dimen/mar_10"
+                    android:paddingRight="@dimen/mar_10"
+                    android:paddingTop="@dimen/mar_10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="提        示："
+                        android:textColor="@color/txt_yellow"
+                        android:textSize="@dimen/txt_14" />
+
+                    <TextView
+                        android:id="@+id/tv_scene_ts"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:gravity="center_vertical"
+                        android:text="拉的及奥迪可垃圾的法拉克的积分"
+                        android:textColor="@color/txt_yellow"
+                        android:textSize="@dimen/txt_14" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mar_10"
+                android:background="@drawable/bg_round_white"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/mar_10"
+                    android:layout_marginRight="@dimen/mar_10"
+                    android:gravity="center_vertical"
+                    android:minHeight="@dimen/mar_45"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/mar_10"
+                    android:paddingTop="@dimen/mar_10">
+
+                    <TextView
+                        style="@style/MyText_size14_tvColor_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="审核结论："
+                        android:background="@color/bg_gray"
+                        android:paddingLeft="@dimen/mar_10"
+                        android:paddingTop="@dimen/mar_4"
+                        android:paddingBottom="@dimen/mar_4"/>
+
+                    <RadioGroup
+                        android:id="@+id/rg_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_select_1"
+                            style="@style/MyText_size12_tvColor_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:clickable="true"
+                            android:text="@string/scene_selectindex_1" />
+
+                        <RadioButton
+                            android:id="@+id/rb_select_2"
+                            style="@style/MyText_size12_tvColor_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/mar_8"
+                            android:layout_weight="6"
+                            android:clickable="true"
+                            android:text="@string/scene_selectindex_2" />
+
+                        <RadioButton
+                            android:id="@+id/rb_select_3"
+                            style="@style/MyText_size12_tvColor_black"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/mar_8"
+                            android:layout_weight="4"
+                            android:clickable="true"
+                            android:text="@string/scene_selectindex_3" />
+
+                        <RadioButton
+                            android:id="@+id/rb_select_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/mar_8"
+                            android:layout_weight="2"
+                            android:button="@null"
+                            android:clickable="true"
+                            android:gravity="right"
+                            android:text="@string/scene_selectindex_4"
+                            android:textColor="@color/txt_red"
+                            android:textSize="@dimen/txt_14" />
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <include layout="@layout/base_line" />
+
+                <LinearLayout
+                    android:id="@+id/ll_select_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_scene_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:layout_marginRight="@dimen/mar_10"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/mar_45"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/mar_10"
+                        android:paddingTop="@dimen/mar_10">
+
+                        <TextView
+                            style="@style/MyText_size14_tvColor_black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/mar_10"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.5"
+                            android:text="符 合 图 片 \n拍    照 ：" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_scene_add_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:overScrollMode="never" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/base_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_scene_pic2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:layout_marginRight="@dimen/mar_10"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/mar_45"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/mar_10"
+                        android:paddingTop="@dimen/mar_10"
+                        android:visibility="gone">
+
+                        <TextView
+                            style="@style/MyText_size14_tvColor_black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.5"
+                            android:text="不符合图片\n拍    照 ：" />
+
+                        <ImageView
+                            android:id="@+id/iv_must_full_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/mar_6"
+                            android:src="@drawable/must_fill_tag_yes" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_scene_add_img2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:overScrollMode="never" />
+
+                    </LinearLayout>
+
+                    <include layout="@layout/base_line" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_10"
+                        android:layout_marginRight="@dimen/mar_10"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/mar_45"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/mar_10"
+                        android:paddingTop="@dimen/mar_10">
+
+                        <TextView
+                            style="@style/MyText_size14_tvColor_black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="备        注：" />
+
+                        <ImageView
+                            android:id="@+id/iv_must_full"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/mar_4"
+                            android:src="@drawable/must_fill_tag_no" />
+
+                        <EditText
+                            android:id="@+id/et_scene_bz"
+                            style="@style/MyText_size14_tvColor_black"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center_vertical"
+                            android:hint="当为不符合要求时 * 符号的填" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
